@@ -25,8 +25,8 @@ class UserActivitySubscriber implements EventSubscriberInterface
     {
         return [
             Events::postPersist,
-            Events::postRemove,
-            Events::postUpdate,
+//            Events::postRemove,
+//            Events::postUpdate,
         ];
     }
 

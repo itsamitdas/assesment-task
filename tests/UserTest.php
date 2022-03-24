@@ -51,7 +51,7 @@ class UserTest extends ApiTestCase
     }
 
     public function testDeleteUser(){
-        $response = static::createClient()->request('DELETE','/api/userss/'.$this->getValidUserId());
+        $response = static::createClient()->request('DELETE','/api/users/'.$this->getValidUserId());
         $this->assertResponseStatusCodeSame(204);
     }
 
